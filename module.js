@@ -6,5 +6,16 @@ const funcs = {
     alert("bar");
   },
 };
+const f1 = function (s) {
+  alert(s);
+};
+const f2 = function (s) {
+  alert(s);
+};
 const hello = "<h1>hello </h1>";
-export { hello, funcs };
+export {
+  hello,
+  funcs,
+  f1,
+  f2
+};
